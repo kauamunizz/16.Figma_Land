@@ -10,7 +10,7 @@
 
     <body>
         <nav class="header">
-            <ul class="items">
+            <ul class="items hide">
                 <li class="item">
                     <a href="#">Home</a>
                 </li>
@@ -27,10 +27,15 @@
                     <a href="#">Contact</a>
                 </li>
             </ul>
+            <div id="menu">
+                <button type="button" id="dropButton" name="drop-button">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
             <a href="#">
                 <img src="./img/logo.png" alt="Logo Figma">
             </a>
-            <ul>
+            <ul class="social-midia hide">
                 <li>
                     <a href="#">
                         <i class="fa-brands fa-twitter fa-2x"></i>
@@ -47,12 +52,13 @@
                     </a>
                 </li>
             </ul>
+           
         </nav>
         <section class="home">       
             <div class="box-center">
                 <h1>The best products start with Figma</h1>
                 <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-                <button class="button">Try for free</button>
+                <button type="button" class="button">Try for free</button>
             </div>
         </section>
         <section class="section">
@@ -103,7 +109,7 @@
             <div class="esquerdo">
                 <h2>Fastest way to organize</h2>
                 <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-                <button class="button">Try for free</button>
+                <button type="button" class="button">Try for free</button>
             </div>
             <img src="./img/notebook.png" alt="Notebook">
         </section>
@@ -117,7 +123,7 @@
                         <h5>Subscribe to our Newsletter</h6>
                         <h6>Available exclusivery on Figmaland</h6>
                         <input type="email" placeholder="Your Email">
-                        <button>Subscribe</button>
+                        <button type="button">Subscribe</button>
                     </div>
                 </div>
             </div>
@@ -150,7 +156,7 @@
                 </div>
             </div>
             <div class="botao-partner">
-                <button class="button">Try for free</button>
+                <button type="button" class="button">Try for free</button>
             </div>
         </section>
         <section class="section">
@@ -169,7 +175,7 @@
                 </div>
             </div>
             <div class="botao-testimonials">
-                <button class="button">More Testimonials</button>
+                <button type="button" class="button">More Testimonials</button>
             </div>
         </section>
         <section class="pricing">
@@ -190,7 +196,7 @@
                     <span>pricing Feature</span>
                     <span>pricing Feature</span>
                     <span>pricing Feature</span>
-                    <button class="button">Order Now</button>
+                    <button type="button" class="button">Order Now</button>
                 </div>
                 <div class="card-item">
                     <h3>FREE</h3>
@@ -204,7 +210,7 @@
                     <span>pricing Feature</span>
                     <span>pricing Feature</span>
                     <span>pricing Feature</span>
-                    <button class="button">Order Now</button>
+                    <button type="button" class="button">Order Now</button>
                 </div>
                 <div class="card-item">
                     <h3>FREE</h3>
@@ -218,7 +224,7 @@
                     <span>pricing Feature</span>
                     <span>pricing Feature</span>
                     <span>pricing Feature</span>
-                    <button class="button">Order Now</button>
+                    <button type="button" class="button">Order Now</button>
                 </div>
             </div>
         </section>
@@ -233,7 +239,7 @@
                     <input type="text" name="nome" id="nome" placeholder="Your Name">
                     <input type="email" name="email" id="email" placeholder="Your Email">
                     <input type="text" name="text" id="text" placeholder="Your menssage">
-                    <button class="button">Order Now</button>
+                    <button type="button" class="button">Order Now</button>
                 </form>
                 <div class="map">
                     <div class="locais">
