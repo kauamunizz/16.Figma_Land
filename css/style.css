@@ -89,7 +89,12 @@ body{
     background-color: #2091f9;
     color: #fff;
     font-size: 17px;
+    cursor: pointer;
+    transition: .3s;
+}
 
+.button:hover {
+    background-color: #65b1f8;
 }
 
 /* section */
@@ -338,6 +343,7 @@ body{
 .testimonials .designer .spans-grid {
     display: flex;
     flex-direction: column;
+    padding-left: 20px;
 }
 
 .botao-testimonials {
@@ -453,7 +459,6 @@ body{
 
 .center-contact .map {
     display: flex;
-    /* align-items: flex-start; */
     flex-direction: column;
     width: 70%;
     height: 100%;
@@ -474,8 +479,8 @@ body{
 }
 
 .center-contact .map .locais .local img {
-    width: 17px;
-    height: 17px;
+    width: 16px;
+    height: 18px;
 }
 
 .center-contact .map .locais .local p {
@@ -484,7 +489,6 @@ body{
     font-size: 13px;
     color: #374754;
 }
-
 .center-contact .form h3 {
     margin-top: 1rem;
 }
@@ -498,8 +502,16 @@ body{
     width: 70%;
 }
 
-.form input[name = text]{
-    height: 150px;
+.form .textarea{
+    background-color: rgba(146, 146, 146, 0.233);
+    border: none;
+    padding: 14px 20px;
+    margin: 1rem 1rem 1.5rem;
+    border-radius: 25px;
+    width: 70%;
+    resize: vertical;
+    min-height: 100px;
+    max-height: 250px;
 }
 
 .mapa {
@@ -590,6 +602,15 @@ body{
 .socials ul li {
     display: flex;
     justify-content: space-around;
+}
+
+.footer-menu .footer-menu-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-menu .footer-menu-item a:hover {
+    text-decoration: underline;
 }
 
 .socials ul li a {
@@ -714,6 +735,7 @@ body{
         height: 244px;
     }
     .contato .direito {
+        padding-top: 20px;
         align-items: center;
         margin-left: 0;
     }
@@ -736,6 +758,9 @@ body{
     }
     .grid-partner:nth-child(2){
         margin: 30px 0;
+    }
+    .testimonials .img {
+        padding: 16px 0 50px;
     }
     .testimonials .designer {
         margin-bottom: 2rem;
@@ -777,9 +802,17 @@ body{
     }
     .center-contact .form {
         width: 90%;
+        padding: 0 15px;
+    }
+    .form input {
+        width: 100%;
     }
     .center-contact .form .button {
         margin-bottom: 0.8rem;
+    }
+    .form .textarea {
+        margin: 0;
+        width: 100%;
     }
     .footer {
         height: auto;
