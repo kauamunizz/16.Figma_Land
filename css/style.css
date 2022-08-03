@@ -614,11 +614,10 @@ body{
     }
     button i {
         display: flex;
-        width: 30px;
-        height: 30px;
         align-items: center;
         justify-content: center;
         color: #2091f9;
+        font-size: 1.5rem;
     }
     .header {
         width: 100%;
