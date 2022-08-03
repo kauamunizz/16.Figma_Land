@@ -598,3 +598,176 @@ body{
     padding-right: 21px;
     font-size: 13px;
 }
+
+@media (max-width: 576px) {
+    .header {
+        width: auto;
+        padding: 0;
+    }
+    .header ul{
+        display: none;
+    }
+    .home {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100vh;
+        background: url(../img/page-1.png) center no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+    }
+    .home .box-center {
+        width: auto;
+    }
+    .home h1{
+        font-weight: 300;
+        font-size: 54px;
+        line-height: 58px;
+    }
+    .home p{
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .section {
+        height: auto;
+    }
+    .title {
+        width: 285px;
+        height: 140px;
+    }
+    .title h2 {
+        font-size: 40px;
+    }
+    .grid-items{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-item {
+        width: 255px;
+    }
+    .video iframe {
+        width: 340px;
+        height: 210px;
+    }
+    .fast{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fast .esquerdo{
+        text-align: center;
+        align-items: center;
+    }
+    .fast h2{
+        font-size: 45px;
+        font-weight: 300;
+    }
+    .fast img {
+        width: 314px;
+        height: 210px;
+        margin: 1rem 0;
+    }
+    .esquerdo button {
+        padding: 15px 17px;
+    }
+    .contato {
+        flex-direction: column;
+    }
+    .contato img {
+        width: 330px;
+        height: 244px;
+    }
+    .contato .direito {
+        align-items: center;
+        margin-left: 0;
+    }
+    .contato .direito .email {
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contato .direito .email button {
+        margin-top: 10px;
+    }
+    .grid-partners {
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-partner:nth-child(4),
+    .grid-partner:nth-child(5){
+        display: none;
+    }
+    .grid-partner:nth-child(2){
+        margin: 30px 0;
+    }
+    .testimonials .designer {
+        margin-bottom: 2rem;
+    }
+    .card-item:nth-child(2) {
+        margin: 50px 0;
+        padding: 15px 35px;
+    }
+    .center-contact {
+        flex-direction: column-reverse;
+    }
+    .center-contact .map {
+        flex-direction: column-reverse;
+    }
+    .center-contact .map .locais {
+        display: flex;
+        flex-direction: column;
+        grid-column-gap: 0;
+
+    }
+    .center-contact .map .locais .local{
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 0;
+    }
+    .center-contact .map .locais .local p {
+        text-align: start;
+        padding: 15px 0 15px 11px;
+    }
+    .center-contact .map .locais .local img {
+        width: auto;
+        height: auto;
+    }
+    .map ul {
+        justify-content: center;
+    }
+    .mapa {
+        display: none;
+    }
+    .center-contact .form {
+        width: 90%;
+    }
+    .center-contact .form .button {
+        margin-bottom: 0.8rem;
+    }
+    .footer {
+        height: auto;
+    }
+    .footer-content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer-content .footer-menu {
+        margin: 25px 0;
+        text-align: center;
+    }
+    .footer-content .footer-menu:nth-child(1){
+        margin: 15px 0;
+    }
+    .socials-footer .local p {
+        font-weight: 100;
+        font-size: 11px;
+    }
+    .socials-footer {
+        padding: 0 0 20px;
+    }
+}
