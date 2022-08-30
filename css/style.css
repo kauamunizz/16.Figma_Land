@@ -101,11 +101,11 @@ body{
 
 .section {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: column  ;
     align-items: center;
 }
 
@@ -115,6 +115,7 @@ body{
     flex-direction: column;
     width: 550px;
     text-align: center;
+    margin: 20px 0;
     padding-bottom: 20px;
 }
 
@@ -455,8 +456,9 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+    
 }
 
 .center-contact .form {
